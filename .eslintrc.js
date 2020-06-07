@@ -21,8 +21,9 @@ module.exports = {
     "rules": {
         "@typescript-eslint/ban-ts-comment": "error",
         "@typescript-eslint/no-empty-interface": "error",
-        // NOTE: Disable no-extra-non-null-assertion
-        "@typescript-eslint/no-extra-non-null-assertion": 0,
+        // NOTE: Disable no-extra-non-null-assertion and no-non-null-assertion
+        "@typescript-eslint/no-extra-non-null-assertion": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
         "exaggerated-non-null-assertion/exaggerated-non-null-assertion": "error",
     }
 };
