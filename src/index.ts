@@ -1,10 +1,2 @@
-export function hoge(str: string): number {
-  return str.length;
-}
-function f1() {
-
-}
-
-interface A {
-
-}
+const foo: number | undefined = undefined;
+const bar = foo!!!;
